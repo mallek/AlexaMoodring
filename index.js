@@ -77,7 +77,7 @@ const handlers = {
 
         try {
             unirest.post("https://community-sentiment.p.mashape.com/text/")
-                .header("X-Mashape-Key", "nWMEhUYzs7mshomIVibg5FDagUrJp1cn728jsnw870TYzbpA1o")
+                .header("X-Mashape-Key", "INSERT_KEY_HERE")
                 .header("X-Mashape-Host", "community-sentiment.p.mashape.com")
                 .header("Content-Type", "application/x-www-form-urlencoded")
                 .send("txt=" + slots.event.resolved)
